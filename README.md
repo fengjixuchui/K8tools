@@ -1,4 +1,4 @@
-# K8tools 20190428
+# K8tools 20190613
 
 声明: 工具仅供安全研究或授权渗透，非法用途后果自负。<br>
 博客: https://www.cnblogs.com/k8gege<br>
@@ -13,6 +13,7 @@ PS: 不定期更新,文件比较大，可按需下载。工具有BUG或建议可
 [+] K8data.mdb K8飞刀漏洞数据库20190402<br>
 [+] K8expList.txt K8飞刀漏洞利用列表<br>
 <H3>提权工具</H3>
+[+] 提权工具 CVE-2019-0803.exe Win32k漏洞提权工具<br>
 [+] 提权工具 iislpe.exe  IIS全版本提权(仅限IIS帐户、服务帐户)<br>
 [+] 提权工具 pr.exe pr有参版 pr0无参版（巴西烤肉:国内10年所说的PR或IIS6提权）<br>
 [+] 提权工具 k8uac_20181125[K8].rar 目前还支持全版本WIN7-Win10<br>
@@ -104,14 +105,16 @@ PS: 不定期更新,文件比较大，可按需下载。工具有BUG或建议可
 [+] 远控后门 QQ远控 ClientKey 利用工具.rar 不免杀18年仍然可用19年未测估计也还行<br>
 [+] 远控后门 vncdoor.exe  VNC后门可正反向<br>
 [+] 远控后门 k8_SSH_Manage.exe 渗透专用SSH(执行完后立即销毁会话,不像putty保存会话常暴露IP)<br>
-[+] 远控后门 sshcmd.exe 渗透专用SSH(执行完后立即销毁会话,同时清除连接IP，)<br>
+[+] 连接工具 sshcmd.exe   渗透专用SSH(执行完后立即销毁会话,同时清除连接IP)<br>
+[+] 连接工具 sshshell.exe 交互式SSH类似putty保持会话(目标显示IP一直连着)<br>
 [+] 远控后门 K8手机远控电脑V1.1_20121020[K.8].rar<br>
 [+] 远控后门 JspShellExec CMD下JSP一句话连接工具<br>
 [+] 捆绑工具 K8_rarBind.rar RAR捆绑工具<br>
 <H3>嗅探工具</H3>
 [+] 嗅探工具 K8getPC.py 内网存活主机探测(无需端口\无视防火墙)<br>
 <H3>扫描工具</H3>
-[+] 扫描工具 K8Cscan 3.6.rar 大型内网渗透自定义扫描工具<br>
+[+] 扫描工具 K8PortScan开源跨平台大型网络端口扫描器(Bin: Windows/Kali/SUSE)<br>
+[+] 扫描工具 K8Cscan 3.8.rar 大型内网渗透自定义扫描工具<br>
 [+] 扫描插件 K8Cscan Moudle WebLogicScan.rar Weblogic通用GetShell<br>
 [+] 扫描插件 K8Cscan Moudle CiscoScan.rar Cisco思科探测插件<br>
 [+] 扫描插件 K8Cscan Moudle OSScan2.rar 系统版本探测插件2<br>
@@ -123,7 +126,7 @@ PS: 不定期更新,文件比较大，可按需下载。工具有BUG或建议可
 [+] 扫描插件 K8Cscan Moudle WmiScan.rar Wmi扫描Win系统密码插件<br>
 [+] 扫描工具 K8Cscan for SameWeb.rar C段旁站扫描工具<br>
 [+] 扫描工具 K8Cscan for SubDomain.rar 子域名扫描工具<br>
-[+] 扫描工具 cping3.0.rar 大型内外网渗透扫描工具<br>
+[+] 扫描工具 cping3.0.rar 大型内外网渗透主机扫描工具<br>
 [+] 扫描工具 K8_C段旁注工具6.0<br>
 [+] 扫描工具 s加强版.exe<br>
 [+] 扫描工具 K8openssl批量 Bat版.rar<br>
@@ -138,6 +141,7 @@ PS: 不定期更新,文件比较大，可按需下载。工具有BUG或建议可
 [+] 脱库工具 K8outSQL.aspx MSSQL导库工具<br>
 <H3>加密解密</H3>
 [+] K8飞刀里大量加密解密算法、编码解码、SQL注入、XSS等<br>
+[+] 密码破解 sshtest.exe SSH密码登陆测试可结合Cscan进行批量破解<br>
 [+] 嗅探工具 k8ftpsniffer.py FTP<br>
 [+] 密码破解 K8_DNN_Password_Decrypt_20161110.rar dotnetnuke密码解密工具<br>
 [+] 密码破解 Invoke-Mimikatz.ps1  Mimikatz 20181209 <br>
